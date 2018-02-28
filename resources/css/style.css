@@ -148,7 +148,31 @@ body {
 
 }
 
+h4 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
 .small_1 {
+}
+
+.bite_column_container {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 100%
+  padding: 0px 0px 2px 0px;
+  align-items: flex-start;
+}
+
+.column_p {
+  border-bottom: 1px black solid;
+  padding: 1px 0px 1px 20px;
+  align-items: flex-start;
 }
 
 /**-------FOOTER-------**/
