@@ -15,6 +15,7 @@ body {
   padding-right: 20px;
   position: fixed;
   background-color: white;
+  width: 100%;
 }
 
 .logo_side_container {
@@ -25,14 +26,17 @@ body {
   display: flex;
   justify-content: space-between;
   border: 1px black solid;
-  width: 17.5%;
+  width: 155px;
+  position:;
 }
 
 .nav_side_container {
   display: flex;
   justify-content: space-between;
   border: 1px black solid;
-  width: 28%;
+  width: 250px;
+  padding-right: 60px;
+  flex-wrap: wrap;
 }
 
 .header_words {
@@ -49,14 +53,26 @@ body {
 /**-----------BODY-----------**/
 
 /**-------Large Container CSS-------**/
+.body_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 110px;
+
+}
+
 .large_container {
   border: black 1px solid;
-  display: inline-flex;
+  display: flex;
   justify-content: space-between;
+  width: 630px;
+  padding: 0px 10px;
 }
 
 .large_1 {
   border: black 1px solid;
+  display: flex;
+  flex-direction: column;
 }
 
 .large_2 {
@@ -71,6 +87,8 @@ body {
 /**-------Medium Container CSS-------**/
 .medium_container {
   border: black 1px solid;
+  width: 300px;
+  padding: 0px 10px;
 }
 
 .medium_1 {
@@ -84,6 +102,8 @@ body {
 /**-------Small Container CSS-------**/
 .small_container {
   border: black 1px solid;
+  width: 240px;
+  padding: 0px 10px;
 }
 
 .small_1 {
