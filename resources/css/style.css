@@ -1,6 +1,9 @@
 body {
   padding: 0px;
   margin: 0px;
+  font-family: Georgia, sans-serif;
+  font-size: 17px;
+  color: black;
 }
 
 /**-----------HEADER-----------**/
@@ -54,7 +57,7 @@ body {
 .body_container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   padding-top: 110px;
 
 }
@@ -82,14 +85,31 @@ body {
 
 #main_header {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  font-family: Georgia, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  height: 300px;
 }
 
 #lower_header_1 {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+  font-family: Georgia, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+  text-align: center;
 }
 
 #lower_header_2 {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+  font-family: Georgia, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+  text-align: center;
 }
 
 .lower_pictures {
@@ -103,7 +123,7 @@ body {
 /**-------Medium Container CSS-------**/
 .medium_container {
   width: 300px;
-  padding: 0px 10px;
+  padding: 50px 10px;
 }
 
 .medium_1 {
@@ -114,10 +134,12 @@ body {
 
 #lower_header_3 {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
-}
-
-.picture_cat {
-
+  font-family: Georgia, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+  text-align: center;
 }
 
 /**-------Small Container CSS-------**/
@@ -128,3 +150,5 @@ body {
 
 .small_1 {
 }
+
+/**-------FOOTER-------**/
