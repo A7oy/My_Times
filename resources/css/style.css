@@ -1,0 +1,42 @@
+/**-----------HEADER-----------**/
+
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: black 1px solid;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.logo_side_container {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+  display: flex;
+  justify-content: space-between;
+  border: 1px black solid;
+  width: 17.5%;
+}
+
+.nav_side_container {
+  display: flex;
+  justify-content: space-between;
+  border: 1px black solid;
+  width: 28%;
+}
+
+.header_words {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+}
+
+.my_times_header_txt {
+  align-self: center;
+}
+
+/**-----------BODY-----------**/
